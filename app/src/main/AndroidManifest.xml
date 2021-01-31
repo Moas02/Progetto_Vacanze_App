@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.progetto_vacanze_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Progetto_Vacanze_App">
+        <activity android:name=".VINCITORE"></activity>
+        <activity android:name=".Sorico" />
+        <activity android:name=".Schermata1000000" />
+        <activity android:name=".Schermata500000" />
+        <activity android:name=".Schermata125000" />
+        <activity android:name=".Schermata64000" />
+        <activity android:name=".Schermata32000" />
+        <activity android:name=".Schermata16000" />
+        <activity android:name=".Schermata8000" />
+        <activity android:name=".Gioco10" />
+        <activity android:name=".Gioco9" />
+        <activity android:name=".Gioco8" />
+        <activity android:name=".Gioco7" />
+        <activity android:name=".Gioco6" />
+        <activity android:name=".Gioco5" />
+        <activity android:name=".Gioco4" />
+        <activity android:name=".Gioco3" />
+        <activity android:name=".Gioco2" />
+        <activity android:name=".Schermata4000" />
+        <activity android:name=".Schermata2000" />
+        <activity android:name=".Schermata1000" />
+        <activity android:name=".Gioco1" />
+        <activity android:name=".Registrazione_Utente" />
+        <activity android:name=".Schermata_Iniziale" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".popup"
+            android:theme="@style/AppTheme.CustomTheme" />
+    </application>
+
+</manifest>
